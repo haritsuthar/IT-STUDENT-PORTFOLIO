@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Experience & Education - Alex Johnson</title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<script type="module" src="https://static.rocket.new/rocket-web.js?_cfg=https%3A%2F%2Fitstudent3306back.builtwithrocket.new&_be=https%3A%2F%2Fapplication.rocket.new&_v=0.1.6"></script>
+</head>
+<body class="bg-background text-text-primary overflow-x-hidden">
+    <!-- Navigation Header -->
+    <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 ease-out">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo -->
+                <div class="flex-shrink-0">
+                    <a href="home_landing_page.html" class="text-2xl font-bold text-gradient">
+                        AJ
+                    </a>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="home_landing_page.html" class="text-text-secondary hover:text-primary transition-colors duration-200">Home</a>
+                        <a href="about_me.html" class="text-text-secondary hover:text-primary transition-colors duration-200">About</a>
+                        <a href="skills_technologies.html" class="text-text-secondary hover:text-primary transition-colors duration-200">Skills</a>
+                        <a href="experience_education.html" class="text-primary font-medium hover:text-accent transition-colors duration-200">Experience</a>
+                        <a href="contact_connect.html" class="text-text-secondary hover:text-primary transition-colors duration-200">Contact</a>
+                    </div>
+                </div>
+
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-btn" class="text-text-primary hover:text-primary focus:outline-none focus:text-primary transition-colors duration-200">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation Menu -->
+        <div id="mobile-menu" class="md:hidden hidden bg-surface/95 backdrop-blur-lg border-t border-border">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="home_landing_page.html" class="block px-3 py-2 text-text-secondary hover:text-primary transition-colors duration-200">Home</a>
+                <a href="about_me.html" class="block px-3 py-2 text-text-secondary hover:text-primary transition-colors duration-200">About</a>
+                <a href="skills_technologies.html" class="block px-3 py-2 text-text-secondary hover:text-primary transition-colors duration-200">Skills</a>
+                <a href="experience_education.html" class="block px-3 py-2 text-primary font-medium">Experience</a>
+                <a href="contact_connect.html" class="block px-3 py-2 text-text-secondary hover:text-primary transition-colors duration-200">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="pt-24 pb-16 bg-gradient-to-br from-primary-50 via-background to-accent-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 fade-in">
+                    <span class="text-gradient">Experience & Education</span>
+                </h1>
+                <p class="text-xl sm:text-2xl text-text-secondary max-w-3xl mx-auto leading-relaxed fade-in">
+                    My academic journey and professional development through internships, certifications, and continuous learning.
+                </p>
+            </div>
+
+            <!-- Filter Buttons -->
+            <div class="flex flex-wrap justify-center gap-4 mb-12 fade-in">
+                <button id="filter-all" class="filter-btn active px-6 py-3 rounded-lg font-medium transition-all duration-200 bg-primary text-white">
+                    All
+                </button>
+                <button id="filter-education" class="filter-btn px-6 py-3 rounded-lg font-medium transition-all duration-200 bg-surface text-text-primary border border-border hover:bg-primary hover:text-white">
+                    Education
+                </button>
+                <button id="filter-experience" class="filter-btn px-6 py-3 rounded-lg font-medium transition-all duration-200 bg-surface text-text-primary border border-border hover:bg-primary hover:text-white">
+                    Experience
+                </button>
+                <button id="filter-certifications" class="filter-btn px-6 py-3 rounded-lg font-medium transition-all duration-200 bg-surface text-text-primary border border-border hover:bg-primary hover:text-white">
+                    Certifications
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section id="timeline" class="py-20 bg-surface">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Timeline Container -->
+            <div class="relative">
+                <!-- Timeline Line -->
+                <div class="absolute left-4 md:left-1/2 top-0 bottom-0 w-0.5 bg-gradient-to-b from-primary via-accent to-primary transform md:-translate-x-1/2"></div>
+
+                <!-- Timeline Items -->
+                <div class="space-y-12">
+                    <!-- Education: Bachelor's Degree -->
+                    <div class="timeline-item education relative flex items-center" data-category="education">
+                        <div class="hidden md:block absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-primary rounded-full border-4 border-surface shadow-custom-lg z-10"></div>
+                        <div class="md:hidden absolute left-4 transform -translate-x-1/2 w-4 h-4 bg-primary rounded-full border-4 border-surface shadow-custom-lg z-10"></div>
+                        
+                        <div class="ml-12 md:ml-0 md:w-1/2 md:pr-8 md:text-right">
+                            <div class="glass-card p-6 smart-hover">
+                                <div class="flex items-center gap-2 mb-3 md:justify-end">
+                                    <span class="px-3 py-1 bg-primary-100 text-primary text-sm font-medium rounded-full">Education</span>
+                                    <span class="text-text-secondary text-sm">2022 - 2026</span>
+                                </div>
+                                <h3 class="text-xl font-semibold mb-2">Bachelor of Science in Computer Science</h3>
+                                <p class="text-accent font-medium mb-3">University of California, San Francisco</p>
+                                <p class="text-text-secondary mb-4">Pursuing a comprehensive Computer Science degree with focus on software engineering, data structures, algorithms, and web development. Currently maintaining a 3.9 GPA.</p>
+                                
+                                <!-- Expandable Content -->
+                                <div class="expandable-content hidden">
+                                    <div class="border-t border-border pt-4 mt-4">
+                                        <h4 class="font-semibold mb-2">Relevant Coursework:</h4>
+                                        <div class="flex flex-wrap gap-2 mb-4">
+                                            <span class="px-2 py-1 bg-primary-50 text-primary text-xs rounded">Data Structures</span>
+                                            <span class="px-2 py-1 bg-primary-50 text-primary text-xs rounded">Algorithms</span>
+                                            <span class="px-2 py-1 bg-primary-50 text-primary text-xs rounded">Web Development</span>
+                                            <span class="px-2 py-1 bg-primary-50 text-primary text-xs rounded">Database Systems</span>
+                                            <span class="px-2 py-1 bg-primary-50 text-primary text-xs rounded">Software Engineering</span>
+                                        </div>
+                                        <h4 class="font-semibold mb-2">Achievements:</h4>
+                                        <ul class="text-text-secondary text-sm space-y-1">
+                                            <li>• Dean's List - Fall 2024</li>
+                                            <li>• Computer Science Honor Society Member</li>
+                                            <li>• Academic Excellence Scholarship Recipient</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <button class="expand-btn text-primary hover:text-accent transition-colors duration-200 text-sm font-medium mt-2">
+                                    Show More Details
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Experience: Software Development Intern -->
+                    <div class="timeline-item experience relative flex items-center md:flex-row-reverse" data-category="experience">
+                        <div class="hidden md:block absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-accent rounded-full border-4 border-surface shadow-custom-lg z-10"></div>
+                        <div class="md:hidden absolute left-4 transform -translate-x-1/2 w-4 h-4 bg-accent rounded-full border-4 border-surface shadow-custom-lg z-10"></div>
+                        
+                        <div class="ml-12 md:ml-0 md:w-1/2 md:pl-8">
+                            <div class="glass-card p-6 smart-hover">
+                                <div class="flex items-center gap-2 mb-3">
+                                    <span class="px-3 py-1 bg-accent-100 text-accent text-sm font-medium rounded-full">Experience</span>
+                                    <span class="text-text-secondary text-sm">Jun 2024 - Aug 2024</span>
+                                </div>
+                                <h3 class="text-xl font-semibold mb-2">Software Development Intern</h3>
+                                <p class="text-accent font-medium mb-3">TechStart Solutions</p>
+                                <p class="text-text-secondary mb-4">Developed and maintained web applications using React and Node.js. Collaborated with senior developers on client projects and contributed to improving application performance by 25%.</p>
+                                
+                                <!-- Expandable Content -->
+                                <div class="expandable-content hidden">
+                                    <div class="border-t border-border pt-4 mt-4">
+                                        <h4 class="font-semibold mb-2">Key Responsibilities:</h4>
+                                        <ul class="text-text-secondary text-sm space-y-1 mb-4">
+                                            <li>• Built responsive web components using React and Tailwind CSS</li>
+                                            <li>• Implemented RESTful APIs with Node.js and Express</li>
+                                            <li>• Collaborated with design team to improve user experience</li>
+                                            <li>• Participated in code reviews and agile development processes</li>
+                                        </ul>
+                                        <h4 class="font-semibold mb-2">Technologies Used:</h4>
+                                        <div class="flex flex-wrap gap-2 mb-4">
+                                            <span class="px-2 py-1 bg-accent-50 text-accent text-xs rounded">React</span>
+                                            <span class="px-2 py-1 bg-accent-50 text-accent text-xs rounded">Node.js</span>
+                                            <span class="px-2 py-1 bg-accent-50 text-accent text-xs rounded">MongoDB</span>
+                                            <span class="px-2 py-1 bg-accent-50 text-accent text-xs rounded">Git</span>
+                                        </div>
+                                        <h4 class="font-semibold mb-2">Achievements:</h4>
+                                        <ul class="text-text-secondary text-sm space-y-1">
+                                            <li>• Improved application load time by 25%</li>
+                                            <li>• Successfully delivered 3 client projects</li>
+                                            <li>• Received excellent performance review</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <button class="expand-btn text-accent hover:text-primary transition-colors duration-200 text-sm font-medium mt-2">
+                                    Show More Details
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Certification: AWS Cloud Practitioner -->
+                    <div class="timeline-item certifications relative flex items-center" data-category="certifications">
+                        <div class="hidden md:block absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-success rounded-full border-4 border-surface shadow-custom-lg z-10"></div>
+                        <div class="md:hidden absolute left-4 transform -translate-x-1/2 w-4 h-4 bg-success rounded-full border-4 border-surface shadow-custom-lg z-10"></div>
+                        
+                        <div class="ml-12 md:ml-0 md:w-1/2 md:pr-8 md:text-right">
+                            <div class="glass-card p-6 smart-hover">
+                                <div class="flex items-center gap-2 mb-3 md:justify-end">
+                                    <span class="px-3 py-1 bg-success-100 text-success text-sm font-medium rounded-full">Certification</span>
+                                    <span class="text-text-secondary text-sm">Dec 2024</span>
+                                </div>
+                                <h3 class="text-xl font-semibold mb-2">AWS Certified Cloud Practitioner</h3>
+                                <p class="text-success font-medium mb-3">Amazon Web Services</p>
+                                <p class="text-text-secondary mb-4">Earned foundational certification demonstrating understanding of AWS Cloud concepts, services, security, architecture, pricing, and support.</p>
+                                
+                                <!-- Expandable Content -->
+                                <div class="expandable-content hidden">
+                                    <div class="border-t border-border pt-4 mt-4">
+                                        <h4 class="font-semibold mb-2">Certification Details:</h4>
+                                        <ul class="text-text-secondary text-sm space-y-1 mb-4">
+                                            <li>• Credential ID: AWS-CCP-2024-AJ789</li>
+                                            <li>• Valid until: December 2027</li>
+                                            <li>• Score: 890/1000</li>
+                                        </ul>
+                                        <h4 class="font-semibold mb-2">Key Competencies:</h4>
+                                        <div class="flex flex-wrap gap-2 mb-4">
+                                            <span class="px-2 py-1 bg-success-50 text-success text-xs rounded">Cloud Concepts</span>
+                                            <span class="px-2 py-1 bg-success-50 text-success text-xs rounded">Security</span>
+                                            <span class="px-2 py-1 bg-success-50 text-success text-xs rounded">Technology</span>
+                                            <span class="px-2 py-1 bg-success-50 text-success text-xs rounded">Billing & Pricing</span>
+                                        </div>
+                                        <div class="flex gap-3 md:justify-end">
+                                            <a href="javascript:void(0)" class="text-success hover:text-primary transition-colors duration-200 flex items-center gap-1 text-sm">
+                                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
+                                                </svg>
+                                                Verify Certificate
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <button class="expand-btn text-success hover:text-primary transition-colors duration-200 text-sm font-medium mt-2">
+                                    Show More Details
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Experience: Web Development Freelancer -->
+                    <div class="timeline-item experience relative flex items-center md:flex-row-reverse" data-category="experience">
+                        <div class="hidden md:block absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-accent rounded-full border-4 border-surface shadow-custom-lg z-10"></div>
+                        <div class="md:hidden absolute left-4 transform -translate-x-1/2 w-4 h-4 bg-accent rounded-full border-4 border-surface shadow-custom-lg z-10"></div>
+                        
+                        <div class="ml-12 md:ml-0 md:w-1/2 md:pl-8">
+                            <div class="glass-card p-6 smart-hover">
+                                <div class="flex items-center gap-2 mb-3">
+                                    <span class="px-3 py-1 bg-accent-100 text-accent text-sm font-medium rounded-full">Experience</span>
+                                    <span class="text-text-secondary text-sm">Jan 2024 - Present</span>
+                                </div>
+                                <h3 class="text-xl font-semibold mb-2">Freelance Web Developer</h3>
+                                <p class="text-accent font-medium mb-3">Self-Employed</p>
+                                <p class="text-text-secondary mb-4">Providing web development services to small businesses and startups. Specialized in creating responsive websites and web applications using modern technologies.</p>
+                                
+                                <!-- Expandable Content -->
+                                <div class="expandable-content hidden">
+                                    <div class="border-t border-border pt-4 mt-4">
+                                        <h4 class="font-semibold mb-2">Services Provided:</h4>
+                                        <ul class="text-text-secondary text-sm space-y-1 mb-4">
+                                            <li>• Custom website development and design</li>
+                                            <li>• E-commerce platform setup and customization</li>
+                                            <li>• Website maintenance and optimization</li>
+                                            <li>• SEO implementation and performance tuning</li>
+                                        </ul>
+                                        <h4 class="font-semibold mb-2">Client Projects:</h4>
+                                        <ul class="text-text-secondary text-sm space-y-1 mb-4">
+                                            <li>• Local Restaurant Website - Increased online orders by 40%</li>
+                                            <li>• Fitness Studio Booking System - Streamlined class reservations</li>
+                                            <li>• Portfolio Website for Photographer - Enhanced online presence</li>
+                                        </ul>
+                                        <div class="flex gap-3">
+                                            <a href="skills_technologies.html" class="text-accent hover:text-primary transition-colors duration-200 flex items-center gap-1 text-sm">
+                                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/>
+                                                </svg>
+                                                View Projects
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <button class="expand-btn text-accent hover:text-primary transition-colors duration-200 text-sm font-medium mt-2">
+                                    Show More Details
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Education: High School -->
+                    <div class="timeline-item education relative flex items-center" data-category="education">
+                        <div class="hidden md:block absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-primary rounded-full border-4 border-surface shadow-custom-lg z-10"></div>
+                        <div class="md:hidden absolute left-4 transform -translate-x-1/2 w-4 h-4 bg-primary rounded-full border-4 border-surface shadow-custom-lg z-10"></div>
+                        
+                        <div class="ml-12 md:ml-0 md:w-1/2 md:pr-8 md:text-right">
+                            <div class="glass-card p-6 smart-hover">
+                                <div class="flex items-center gap-2 mb-3 md:justify-end">
+                                    <span class="px-3 py-1 bg-primary-100 text-primary text-sm font-medium rounded-full">Education</span>
+                                    <span class="text-text-secondary text-sm">2018 - 2022</span>
+                                </div>
+                                <h3 class="text-xl font-semibold mb-2">High School Diploma</h3>
+                                <p class="text-primary font-medium mb-3">Lincoln High School, San Francisco</p>
+                                <p class="text-text-secondary mb-4">Graduated with honors, focusing on STEM subjects. Active member of the Computer Science Club and Robotics Team.</p>
+                                
+                                <!-- Expandable Content -->
+                                <div class="expandable-content hidden">
+                                    <div class="border-t border-border pt-4 mt-4">
+                                        <h4 class="font-semibold mb-2">Academic Achievements:</h4>
+                                        <ul class="text-text-secondary text-sm space-y-1 mb-4">
+                                            <li>• Graduated Summa Cum Laude (GPA: 3.95)</li>
+                                            <li>• National Honor Society Member</li>
+                                            <li>• AP Computer Science A - Score: 5</li>
+                                            <li>• AP Calculus BC - Score: 5</li>
+                                        </ul>
+                                        <h4 class="font-semibold mb-2">Extracurricular Activities:</h4>
+                                        <ul class="text-text-secondary text-sm space-y-1">
+                                            <li>• Computer Science Club President (2021-2022)</li>
+                                            <li>• Robotics Team Lead Programmer</li>
+                                            <li>• Math Tutoring Volunteer</li>
+                                            <li>• Science Fair Winner - 1st Place (2021)</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <button class="expand-btn text-primary hover:text-accent transition-colors duration-200 text-sm font-medium mt-2">
+                                    Show More Details
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Certification: Google IT Support -->
+                    <div class="timeline-item certifications relative flex items-center md:flex-row-reverse" data-category="certifications">
+                        <div class="hidden md:block absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-success rounded-full border-4 border-surface shadow-custom-lg z-10"></div>
+                        <div class="md:hidden absolute left-4 transform -translate-x-1/2 w-4 h-4 bg-success rounded-full border-4 border-surface shadow-custom-lg z-10"></div>
+                        
+                        <div class="ml-12 md:ml-0 md:w-1/2 md:pl-8">
+                            <div class="glass-card p-6 smart-hover">
+                                <div class="flex items-center gap-2 mb-3">
+                                    <span class="px-3 py-1 bg-success-100 text-success text-sm font-medium rounded-full">Certification</span>
+                                    <span class="text-text-secondary text-sm">Aug 2023</span>
+                                </div>
+                                <h3 class="text-xl font-semibold mb-2">Google IT Support Professional Certificate</h3>
+                                <p class="text-success font-medium mb-3">Google Career Certificates</p>
+                                <p class="text-text-secondary mb-4">Comprehensive program covering IT fundamentals, networking, operating systems, system administration, and security.</p>
+                                
+                                <!-- Expandable Content -->
+                                <div class="expandable-content hidden">
+                                    <div class="border-t border-border pt-4 mt-4">
+                                        <h4 class="font-semibold mb-2">Course Modules Completed:</h4>
+                                        <div class="flex flex-wrap gap-2 mb-4">
+                                            <span class="px-2 py-1 bg-success-50 text-success text-xs rounded">IT Fundamentals</span>
+                                            <span class="px-2 py-1 bg-success-50 text-success text-xs rounded">Networking</span>
+                                            <span class="px-2 py-1 bg-success-50 text-success text-xs rounded">Operating Systems</span>
+                                            <span class="px-2 py-1 bg-success-50 text-success text-xs rounded">System Administration</span>
+                                            <span class="px-2 py-1 bg-success-50 text-success text-xs rounded">IT Security</span>
+                                        </div>
+                                        <h4 class="font-semibold mb-2">Skills Gained:</h4>
+                                        <ul class="text-text-secondary text-sm space-y-1 mb-4">
+                                            <li>• Troubleshooting and customer service</li>
+                                            <li>• Networking protocols and configurations</li>
+                                            <li>• Windows and Linux system administration</li>
+                                            <li>• Security best practices and incident response</li>
+                                        </ul>
+                                        <div class="flex gap-3">
+                                            <a href="javascript:void(0)" class="text-success hover:text-primary transition-colors duration-200 flex items-center gap-1 text-sm">
+                                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
+                                                </svg>
+                                                View Certificate
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <button class="expand-btn text-success hover:text-primary transition-colors duration-200 text-sm font-medium mt-2">
+                                    Show More Details
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Academic Performance Section -->
+    <section id="academic-performance" class="py-20 bg-gradient-to-br from-primary-50 to-accent-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl sm:text-4xl font-bold text-gradient mb-4">Academic Performance</h2>
+                <p class="text-lg text-text-secondary max-w-2xl mx-auto">
+                    Consistent academic excellence and continuous learning throughout my educational journey.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- GPA Card -->
+                <div class="glass-card p-6 text-center smart-hover">
+                    <div class="w-20 h-20 mx-auto mb-4 bg-gradient-primary rounded-full flex items-center justify-center">
+                        <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-3xl font-bold text-primary mb-2">3.9</h3>
+                    <p class="text-text-secondary mb-2">Current GPA</p>
+                    <p class="text-sm text-text-secondary">Cumulative Grade Point Average</p>
+                </div>
+
+                <!-- Credits Card -->
+                <div class="glass-card p-6 text-center smart-hover">
+                    <div class="w-20 h-20 mx-auto mb-4 bg-gradient-accent rounded-full flex items-center justify-center">
+                        <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-3xl font-bold text-accent mb-2">96</h3>
+                    <p class="text-text-secondary mb-2">Credits Completed</p>
+                    <p class="text-sm text-text-secondary">Out of 120 required credits</p>
+                </div>
+
+                <!-- Dean's List Card -->
+                <div class="glass-card p-6 text-center smart-hover">
+                    <div class="w-20 h-20 mx-auto mb-4 bg-gradient-primary rounded-full flex items-center justify-center">
+                        <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-3xl font-bold text-primary mb-2">3</h3>
+                    <p class="text-text-secondary mb-2">Dean's List</p>
+                    <p class="text-sm text-text-secondary">Semesters on Dean's List</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Development Section -->
+    <section id="skills-development" class="py-20 bg-surface">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl sm:text-4xl font-bold text-gradient mb-4">Skills Development</h2>
+                <p class="text-lg text-text-secondary max-w-2xl mx-auto">
+                    Continuous learning and skill enhancement through coursework, projects, and practical experience.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <!-- Technical Skills Progress -->
+                <div class="glass-card p-8">
+                    <h3 class="text-2xl font-semibold mb-6">Technical Proficiency</h3>
+                    <div class="space-y-6">
+                        <div>
+                            <div class="flex justify-between items-center mb-2">
+                                <span class="font-medium">JavaScript</span>
+                                <span class="text-sm text-text-secondary">90%</span>
+                            </div>
+                            <div class="w-full bg-border rounded-full h-3">
+                                <div class="bg-gradient-primary h-3 rounded-full transition-all duration-1000 ease-out" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between items-center mb-2">
+                                <span class="font-medium">Python</span>
+                                <span class="text-sm text-text-secondary">85%</span>
+                            </div>
+                            <div class="w-full bg-border rounded-full h-3">
+                                <div class="bg-gradient-accent h-3 rounded-full transition-all duration-1000 ease-out" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between items-center mb-2">
+                                <span class="font-medium">React</span>
+                                <span class="text-sm text-text-secondary">80%</span>
+                            </div>
+                            <div class="w-full bg-border rounded-full h-3">
+                                <div class="bg-gradient-primary h-3 rounded-full transition-all duration-1000 ease-out" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between items-center mb-2">
+                                <span class="font-medium">Node.js</span>
+                                <span class="text-sm text-text-secondary">75%</span>
+                            </div>
+                            <div class="w-full bg-border rounded-full h-3">
+                                <div class="bg-gradient-accent h-3 rounded-full transition-all duration-1000 ease-out" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-8">
+                        <a href="skills_technologies.html" class="btn-primary">
+                            View All Skills
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Learning Journey -->
+                <div class="glass-card p-8">
+                    <h3 class="text-2xl font-semibold mb-6">Learning Journey</h3>
+                    <div class="space-y-6">
+                        <div class="flex items-start gap-4">
+                            <div class="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                            <div>
+                                <h4 class="font-semibold mb-1">Advanced Web Development</h4>
+                                <p class="text-text-secondary text-sm mb-2">Currently learning React Native and advanced JavaScript patterns</p>
+                                <span class="text-xs text-primary bg-primary-50 px-2 py-1 rounded">In Progress</span>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="w-3 h-3 bg-accent rounded-full mt-2 flex-shrink-0"></div>
+                            <div>
+                                <h4 class="font-semibold mb-1">Cloud Computing</h4>
+                                <p class="text-text-secondary text-sm mb-2">Exploring AWS services and cloud architecture patterns</p>
+                                <span class="text-xs text-accent bg-accent-50 px-2 py-1 rounded">Active</span>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="w-3 h-3 bg-success rounded-full mt-2 flex-shrink-0"></div>
+                            <div>
+                                <h4 class="font-semibold mb-1">Data Structures & Algorithms</h4>
+                                <p class="text-text-secondary text-sm mb-2">Mastered fundamental CS concepts and problem-solving</p>
+                                <span class="text-xs text-success bg-success-50 px-2 py-1 rounded">Completed</span>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="w-3 h-3 bg-success rounded-full mt-2 flex-shrink-0"></div>
+                            <div>
+                                <h4 class="font-semibold mb-1">Database Management</h4>
+                                <p class="text-text-secondary text-sm mb-2">Proficient in SQL, NoSQL, and database design principles</p>
+                                <span class="text-xs text-success bg-success-50 px-2 py-1 rounded">Completed</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section id="cta" class="py-20 bg-primary text-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl sm:text-4xl font-bold mb-6">Ready to Collaborate?</h2>
+            <p class="text-xl text-primary-200 mb-8 max-w-2xl mx-auto">
+                I'm always excited to work on new projects and learn from experienced professionals. Let's connect and explore opportunities together.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="contact_connect.html" class="bg-white text-primary px-8 py-3 rounded-lg font-medium hover:bg-primary-50 transition-all duration-200 transform hover:scale-105">
+                    Get In Touch
+                </a>
+                <a href="javascript:void(0)" class="border-2 border-white text-white px-8 py-3 rounded-lg font-medium hover:bg-white hover:text-primary transition-all duration-200 transform hover:scale-105" onclick="downloadResume()">
+                    Download Resume
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="md:col-span-2">
+                    <h3 class="text-2xl font-bold mb-4">Alex Johnson</h3>
+                    <p class="text-primary-200 mb-4">
+                        Passionate IT student dedicated to creating innovative digital solutions and building the future of technology.
+                    </p>
+                    <div class="flex gap-4">
+                        <a href="javascript:void(0)" class="text-primary-200 hover:text-white transition-colors duration-200">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
+                            </svg>
+                        </a>
+                        <a href="javascript:void(0)" class="text-primary-200 hover:text-white transition-colors duration-200">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </a>
+                        <a href="javascript:void(0)" class="text-primary-200 hover:text-white transition-colors duration-200">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="about_me.html" class="text-primary-200 hover:text-white transition-colors duration-200">About Me</a></li>
+                        <li><a href="skills_technologies.html" class="text-primary-200 hover:text-white transition-colors duration-200">Skills</a></li>
+                        <li><a href="experience_education.html" class="text-primary-200 hover:text-white transition-colors duration-200">Experience</a></li>
+                        <li><a href="contact_connect.html" class="text-primary-200 hover:text-white transition-colors duration-200">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Contact Info</h4>
+                    <ul class="space-y-2 text-primary-200">
+                        <li>alex.johnson@email.com</li>
+                        <li>+1 (555) 123-4567</li>
+                        <li>San Francisco, CA</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-primary-700 mt-8 pt-8 text-center text-primary-200">
+                <p>&copy; 2025 Alex Johnson. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Navbar scroll effect
+        const navbar = document.getElementById('navbar');
+        
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                navbar.classList.add('bg-surface/95', 'backdrop-blur-lg', 'shadow-custom');
+            } else {
+                navbar.classList.remove('bg-surface/95', 'backdrop-blur-lg', 'shadow-custom');
+            }
+        });
+
+        // Filter functionality
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const timelineItems = document.querySelectorAll('.timeline-item');
+
+        filterButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                // Remove active class from all buttons
+                filterButtons.forEach(btn => {
+                    btn.classList.remove('active', 'bg-primary', 'text-white');
+                    btn.classList.add('bg-surface', 'text-text-primary', 'border', 'border-border');
+                });
+
+                // Add active class to clicked button
+                button.classList.add('active', 'bg-primary', 'text-white');
+                button.classList.remove('bg-surface', 'text-text-primary', 'border', 'border-border');
+
+                // Get filter category
+                const filter = button.id.replace('filter-', '');
+
+                // Show/hide timeline items
+                timelineItems.forEach(item => {
+                    if (filter === 'all' || item.dataset.category === filter) {
+                        item.style.display = 'flex';
+                        item.classList.add('fade-in');
+                    } else {
+                        item.style.display = 'none';
+                        item.classList.remove('fade-in');
+                    }
+                });
+            });
+        });
+
+        // Expandable content functionality
+        const expandButtons = document.querySelectorAll('.expand-btn');
+
+        expandButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const content = button.previousElementSibling;
+                const isHidden = content.classList.contains('hidden');
+
+                if (isHidden) {
+                    content.classList.remove('hidden');
+                    content.classList.add('fade-in');
+                    button.textContent = 'Show Less Details';
+                } else {
+                    content.classList.add('hidden');
+                    content.classList.remove('fade-in');
+                    button.textContent = 'Show More Details';
+                }
+            });
+        });
+
+        // Intersection Observer for animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate');
+                    
+                    // Animate progress bars
+                    if (entry.target.querySelector('.bg-gradient-primary, .bg-gradient-accent')) {
+                        const progressBars = entry.target.querySelectorAll('[style*="width"]');
+                        progressBars.forEach(bar => {
+                            const width = bar.style.width;
+                            bar.style.width = '0%';
+                            setTimeout(() => {
+                                bar.style.width = width;
+                            }, 200);
+                        });
+                    }
+                }
+            });
+        }, observerOptions);
+
+        // Observe timeline items and other animated elements
+        document.querySelectorAll('.timeline-item, .glass-card, .stagger-item').forEach(item => {
+            observer.observe(item);
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Download resume function
+        function downloadResume() {
+            // Create a temporary link element
+            const link = document.createElement('a');
+            link.href = 'javascript:void(0)'; // Placeholder for actual resume file
+            link.download = 'Alex_Johnson_Resume.pdf';
+            
+            // Show download message
+            alert('Resume download would start here. Please connect to actual resume file.');
+        }
+
+        // Staggered animation for timeline items
+        window.addEventListener('load', () => {
+            document.body.classList.add('loaded');
+            
+            // Trigger stagger animations for timeline items
+            setTimeout(() => {
+                document.querySelectorAll('.timeline-item').forEach((item, index) => {
+                    setTimeout(() => {
+                        item.classList.add('fade-in');
+                    }, index * 200);
+                });
+            }, 500);
+        });
+
+        // Timeline scroll progress indicator
+        window.addEventListener('scroll', () => {
+            const timelineSection = document.getElementById('timeline');
+            const rect = timelineSection.getBoundingClientRect();
+            const progress = Math.max(0, Math.min(1, (window.innerHeight - rect.top) / (window.innerHeight + rect.height)));
+            
+            // Update timeline line gradient based on scroll progress
+            const timelineLine = document.querySelector('.absolute.left-4.md\\:left-1\\/2');
+            if (timelineLine) {
+                timelineLine.style.background = `linear-gradient(to bottom, 
+                    var(--color-primary) 0%, 
+                    var(--color-accent) ${progress * 50}%, 
+                    var(--color-primary) 100%)`;
+            }
+        });
+    </script>
+<script id="dhws-dataInjector" src="../public/dhws-data-injector.js"></script>
+</body>
+</html>
